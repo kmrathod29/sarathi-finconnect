@@ -71,10 +71,15 @@ export default function Navbar() {
               className="h-8 w-auto shrink-0 object-contain md:h-9"
             />
             <img
+              src="/logo/sarathi-finconnect-tile-logo.png"
+              alt="Sarathi FinConnect"
+              className="ml-1 h-4 w-auto max-w-[9.5rem] object-contain sm:h-5 md:ml-2 md:h-[1.35rem] md:max-w-none"
+            />
+            {/* <img
               src="/logo/sarathi-finconnect-tile-logo.svg"
               alt="Sarathi FinConnect"
               className="h-4 w-auto max-w-[9.5rem] object-contain sm:h-5 md:h-[1.35rem] md:max-w-none"
-            />
+            /> */}
           </Link>
           <ul className="m-0 hidden list-none items-center gap-1 p-0 md:flex">
             {navLinks.map((link) => (
