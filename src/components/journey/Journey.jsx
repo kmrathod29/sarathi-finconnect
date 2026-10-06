@@ -514,7 +514,7 @@ export default function Journey() {
             A conversation is the first move toward a clearer financial path.
           </p>
           <PrimaryButton
-            href="mailto:hello@sarathiudaan.com"
+            href="mailto:"
             className="mt-8 !bg-brand-gold hover:!bg-brand-gold-light"
           >
             Talk to Us <ArrowRight size={16} aria-hidden="true" />

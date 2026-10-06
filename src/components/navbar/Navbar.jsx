@@ -73,8 +73,8 @@ export default function Navbar() {
             <img
               src="/logo/sarathi-finconnect-tile-logo.png"
               alt="Sarathi FinConnect"
-              className="ml-1 h-4 w-auto max-w-[9.5rem] object-contain sm:h-5 md:ml-2 md:h-[1.35rem] md:max-w-none"
-            />
+              className="ml-1 h-6 w-auto max-w-[11rem] object-contain sm:h-7 md:ml-2 md:h-[1.6rem] md:max-w-none"
+            />  
             {/* <img
               src="/logo/sarathi-finconnect-tile-logo.svg"
               alt="Sarathi FinConnect"
