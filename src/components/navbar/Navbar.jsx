@@ -70,11 +70,9 @@ export default function Navbar() {
               aria-hidden="true"
               className="h-8 w-auto shrink-0 object-contain md:h-9"
             />
-            <img
-              src="/logo/sarathi-finconnect-tile-logo.png"
-              alt="Sarathi FinConnect"
-              className="ml-1 h-6 w-auto max-w-[11rem] object-contain sm:h-7 md:ml-2 md:h-[1.6rem] md:max-w-none"
-            />  
+            <span className="ml-1 truncate font-museo text-[1.05rem] font-semibold leading-none tracking-wide text-brand-navy sm:text-xl md:ml-2 md:text-[1.35rem]">
+              Sa&#8377;athi FinConnect
+            </span>
             {/* <img
               src="/logo/sarathi-finconnect-tile-logo.svg"
               alt="Sarathi FinConnect"

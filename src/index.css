@@ -2,19 +2,21 @@
 
 /* ─── Brand Design Tokens ─── */
 @theme {
-  --color-brand-navy: #0B1F4D;
-  --color-brand-navy-deep: #06142F;
-  --color-brand-gold: #C69214;
-  --color-brand-gold-light: #E3BD62;
-  --color-surface: #F7F8FA;
-  --color-surface-soft: #EEF2F6;
+  --color-brand-navy: #0b1f4d;
+  --color-brand-navy-deep: #06142f;
+  --color-brand-gold: #c69214;
+  --color-brand-gold-light: #e3bd62;
+  --color-surface: #f7f8fa;
+  --color-surface-soft: #eef2f6;
   --color-text-primary: #101828;
   --color-text-secondary: #667085;
-  --color-border: #DFE4EA;
+  --color-border: #dfe4ea;
 
-  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system,
-    BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
-    sans-serif;
+  --font-sans:
+    "Inter", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+  --font-museo: "MuseoModerno", sans-serif;
 }
 
 /* ─── Base Reset & Defaults ─── */
@@ -31,7 +33,9 @@ html {
   text-rendering: optimizeLegibility;
 }
 
-html, body, #root {
+html,
+body,
+#root {
   min-width: 0;
   overflow-x: clip;
 }
