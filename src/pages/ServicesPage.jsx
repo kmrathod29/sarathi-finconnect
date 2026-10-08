@@ -135,7 +135,7 @@ export default function ServicesPage() {
                 Detailed information about each service, eligibility, and
                 process will be available here soon. For now, feel free to{" "}
                 <a
-                  href="mailto:hello@sarathiudaan.com"
+                  href="mailto:"
                   className="font-semibold text-brand-gold no-underline transition-colors hover:text-brand-navy"
                 >
                   reach out to us
