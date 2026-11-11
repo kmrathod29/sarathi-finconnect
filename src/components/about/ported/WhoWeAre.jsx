@@ -92,7 +92,7 @@ export default function WhoWeAre() {
 
           <Reveal as="blockquote" delay={400} className="rounded-2xl border-l-4 border-brand-gold bg-[#f8f4e9] px-8 py-8 lg:col-span-12">
             <p className="mb-3 text-sm font-semibold uppercase tracking-[0.22em] text-brand-gold">OUR BELIEF</p>
-            <p className="font-serif text-[clamp(1.6rem,3vw,2.5rem)] italic leading-tight text-brand-navy">Good financial guidance starts with understanding the person behind the need.</p>
+            <p className="whitespace-nowrap font-serif text-[clamp(1rem,1.7vw,1.45rem)] italic leading-tight text-brand-navy">Good financial guidance starts with understanding the person behind the need.</p>
           </Reveal>
         </div>
       </div>

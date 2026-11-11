@@ -197,7 +197,7 @@ function LeadershipSection() {
               ))}
             </div>
 
-            <blockquote className="mt-9 border-l-4 border-brand-gold bg-slate-50/65 px-5 py-5 sm:px-7">
+            <blockquote className="mt-9 border-l-4 border-brand-gold bg-[#f4f0e6] px-5 py-5 sm:px-7">
               <p className="font-bricolage text-xl italic leading-relaxed text-brand-navy sm:text-2xl">
                 “Every person deserves clear guidance before taking a loan.”
               </p>

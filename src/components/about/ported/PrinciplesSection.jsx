@@ -185,7 +185,7 @@ function PrinciplesSection() {
   return (
     <section
       aria-labelledby="principles-title"
-      className="relative overflow-hidden bg-gradient-to-b from-[#e9eef8] via-[#bdc9df] to-[#0b1f4d] px-4 py-16 text-brand-navy sm:px-6 md:py-24"
+      className="relative overflow-hidden bg-gradient-to-b from-white via-[#bdc9df] to-[#0b1f4d] px-4 py-16 text-brand-navy sm:px-6 md:py-24"
     >
       <div className="relative mx-auto max-w-280">
         {/* ------------------------- Heading ------------------------- */}
@@ -213,7 +213,7 @@ function PrinciplesSection() {
             {(shown) => (
               <article
                 onPointerMove={trackPointer}
-                className={`${cardBase} flex flex-col border-brand-navy/[0.08] bg-brand-navy  text-white shadow-[0_22px_50px_-26px_rgba(16,38,83,0.7)] hover:border-brand-gold/60 hover:shadow-[0_32px_70px_-26px_rgba(16,38,83,0.85)]`}
+                className={`${cardBase} flex flex-col border-brand-navy/[0.08] bg-gradient-to-br from-[#0b1f4d] to-[#234b91] text-white shadow-[0_22px_50px_-26px_rgba(16,38,83,0.7)] hover:border-brand-gold/60 hover:shadow-[0_32px_70px_-26px_rgba(16,38,83,0.85)]`}
               >
                 <Spotlight tone="bg-[radial-gradient(320px_circle_at_var(--mx)_var(--my),rgba(255,255,255,0.09),transparent_70%)]" />
 
@@ -242,7 +242,7 @@ function PrinciplesSection() {
           <Reveal from="right" delay="delay-150" className="md:col-span-2 lg:col-span-5">
             <article
               onPointerMove={trackPointer}
-              className={`${cardBase} border-brand-gold/30 bg-brand-gold  text-brand-navy shadow-[0_22px_50px_-28px_rgba(120,84,0,0.65)] hover:border-brand-gold/50 hover:shadow-[0_32px_70px_-28px_rgba(120,84,0,0.8)]`}
+              className={`${cardBase} border-brand-gold/30 bg-gradient-to-br from-[#d9a91f] to-[#f2d77e] text-brand-navy shadow-[0_22px_50px_-28px_rgba(120,84,0,0.65)] hover:border-brand-gold/50 hover:shadow-[0_32px_70px_-28px_rgba(120,84,0,0.8)]`}
             >
               <Spotlight tone="bg-[radial-gradient(320px_circle_at_var(--mx)_var(--my),rgba(255,255,255,0.28),transparent_70%)]" />
 
@@ -321,7 +321,7 @@ function PrinciplesSection() {
           <Reveal from="right" delay="delay-150" className="md:col-span-1 lg:col-span-5">
             <article
               onPointerMove={trackPointer}
-              className={`${cardBase} border-brand-navy/[0.08] bg-slate-50 shadow-[0_18px_44px_-28px_rgba(16,38,83,0.4)] hover:border-brand-gold/70 hover:shadow-[0_28px_60px_-28px_rgba(16,38,83,0.55)]`}
+              className={`${cardBase} border-brand-navy/[0.08] bg-[#eaf0fb] shadow-[0_18px_44px_-28px_rgba(16,38,83,0.4)] hover:border-brand-gold/70 hover:shadow-[0_28px_60px_-28px_rgba(16,38,83,0.55)]`}
             >
               <Spotlight tone="bg-[radial-gradient(320px_circle_at_var(--mx)_var(--my),rgba(255,255,255,0.7),transparent_70%)]" />
               <span className="absolute left-9 top-0 h-1 w-14 rounded-b-full bg-brand-gold" aria-hidden="true" />
