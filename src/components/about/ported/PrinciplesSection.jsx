@@ -185,7 +185,7 @@ function PrinciplesSection() {
   return (
     <section
       aria-labelledby="principles-title"
-      className="relative overflow-hidden bg-white px-4 py-16 text-brand-navy sm:px-6 md:py-24"
+      className="relative overflow-hidden bg-gradient-to-b from-[#e9eef8] via-[#bdc9df] to-[#0b1f4d] px-4 py-16 text-brand-navy sm:px-6 md:py-24"
     >
       <div className="relative mx-auto max-w-280">
         {/* ------------------------- Heading ------------------------- */}

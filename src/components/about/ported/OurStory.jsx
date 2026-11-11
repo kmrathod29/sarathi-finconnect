@@ -16,7 +16,7 @@ export default function OurStory() {
     <section
       id="our-story"
       aria-labelledby={headingId}
-      className="relative isolate overflow-hidden bg-slate-50 px-4 py-16 text-brand-navy sm:px-6 md:py-24"
+      className="relative isolate overflow-hidden bg-[#faf8f2] px-4 py-16 text-brand-navy sm:px-6 md:py-24"
     >
       <div aria-hidden="true" className="pointer-events-none absolute inset-x-0 top-0 h-36 bg-gradient-to-b from-white/90 to-transparent" />
 
@@ -25,9 +25,9 @@ export default function OurStory() {
           <Reveal>
             {(shown) => <>
             <Eyebrow className="mb-5">Our story</Eyebrow>
-            <h2 id={headingId} className="font-bricolage text-[clamp(1.75rem,3.2vw,2.75rem)] font-bold leading-[1.1] tracking-[-0.02em] text-brand-navy">
+            <h2 id={headingId} className="font-bricolage text-[clamp(2.5rem,5.5vw,4.5rem)] font-extrabold leading-[1.02] tracking-[-0.035em] text-brand-navy">
               <span className="block overflow-hidden pb-[0.08em]"><span className={`inline-block transition-transform duration-700 ease-out delay-100 motion-reduce:transition-none ${shown ? "translate-y-0" : "translate-y-full"}`}>Behind every loan,</span></span>
-              <span className="block overflow-hidden pb-[0.08em]"><span className={`inline-block font-bricolage font-semibold text-brand-gold transition-transform duration-700 ease-out delay-200 motion-reduce:transition-none ${shown ? "translate-y-0" : "translate-y-full"}`}>there is a bigger goal.</span></span>
+              <span className="block overflow-hidden pb-[0.08em]"><span className={`inline-block font-serif font-normal italic text-brand-gold transition-transform duration-700 ease-out delay-200 motion-reduce:transition-none ${shown ? "translate-y-0" : "translate-y-full"}`}>there is a bigger goal.</span></span>
             </h2>
             </>}
           </Reveal>

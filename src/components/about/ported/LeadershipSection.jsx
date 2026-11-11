@@ -45,7 +45,7 @@ function LeadershipSection() {
   return (
     <section
       aria-labelledby="founder-heading"
-      className="relative isolate overflow-hidden bg-white py-16 text-brand-navy md:py-24"
+      className="relative isolate overflow-hidden bg-[#faf8f2] py-16 text-brand-navy md:py-24"
     >
       <div className="relative mx-auto max-w-7xl px-5 sm:px-8 lg:px-10">
         <motion.div
@@ -59,10 +59,10 @@ function LeadershipSection() {
 
           <h2
             id="founder-heading"
-            className="font-bricolage text-[clamp(1.75rem,3.2vw,2.75rem)] font-bold leading-[1.1] tracking-[-0.02em] text-brand-navy"
+            className="font-bricolage text-[clamp(2.5rem,5.5vw,4.5rem)] font-extrabold leading-[1.02] tracking-[-0.035em] text-brand-navy"
           >
             Who’s behind{" "}
-            <span className="font-bricolage font-semibold text-brand-gold">
+            <span className="font-serif font-normal italic text-brand-gold">
               Sarathi?
             </span>
           </h2>

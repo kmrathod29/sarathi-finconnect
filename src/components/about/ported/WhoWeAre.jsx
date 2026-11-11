@@ -44,13 +44,13 @@ export default function WhoWeAre() {
     <section
       id="who-we-are"
       aria-labelledby={headingId}
-      className="relative isolate overflow-hidden bg-white px-4 pt-28 pb-16 text-brand-navy sm:px-6 md:pt-36 md:pb-24"
+      className="relative isolate overflow-hidden bg-[#fbf9f5] px-4 pt-28 pb-16 text-brand-navy sm:px-6 md:pt-36 md:pb-24"
     >
       <div className="relative mx-auto max-w-7xl">
         <Reveal className="text-center">
             <p className="mb-5 font-space text-xs font-medium uppercase tracking-[0.18em] text-brand-navy/60">Who we are</p>
-            <h2 id={headingId} className="mx-auto max-w-3xl font-bricolage text-[clamp(1.75rem,3.2vw,2.75rem)] font-bold leading-[1.1] tracking-[-0.02em] text-brand-navy">
-              A bridge between your goals and the <span className="font-bricolage font-semibold text-brand-gold">right lender.</span>
+            <h2 id={headingId} className="mx-auto max-w-4xl font-bricolage text-[clamp(2.4rem,5.2vw,4rem)] font-extrabold leading-[1.02] tracking-[-0.035em] text-brand-navy">
+              A bridge between your<br className="hidden sm:block" /> goals and the <span className="font-serif font-normal italic text-brand-gold">right lender.</span>
             </h2>
         </Reveal>
 
@@ -78,8 +78,7 @@ export default function WhoWeAre() {
           <Reveal as="article" delay={300} className="rounded-3xl border border-brand-navy/10 bg-white p-7 shadow-[0_20px_55px_-38px_rgba(15,37,87,0.25)] lg:col-span-12 sm:p-9">
             <p className="mb-7 font-space text-xs font-medium uppercase tracking-[0.18em] text-brand-navy/60">We listen first.</p>
             <div ref={processRef} className="relative grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4 lg:gap-6">
-              <span aria-hidden="true" className={`pointer-events-none absolute left-5 top-5 bottom-5 w-px origin-top bg-brand-gold transition-transform duration-1000 ease-out motion-reduce:transition-none lg:hidden ${processShown ? "[transform:scaleY(1)]" : "[transform:scaleY(0)]"}`} />
-              <span aria-hidden="true" className={`pointer-events-none absolute left-[12.5%] right-[12.5%] top-5 hidden h-px origin-left bg-brand-gold transition-transform duration-1000 ease-out motion-reduce:transition-none lg:block ${processShown ? "[transform:scaleX(1)]" : "[transform:scaleX(0)]"}`} />
+              <span aria-hidden="true" className={`pointer-events-none absolute left-[20px] right-[20px] top-5 hidden h-px origin-left bg-brand-gold transition-transform duration-1000 ease-out motion-reduce:transition-none lg:block ${processShown ? "[transform:scaleX(1)]" : "[transform:scaleX(0)]"}`} />
               {steps.map((step, index) => (
                 <Reveal key={step} delay={index * 100} className="relative z-[1]">
                   <div className="group/step flex min-h-[72px] items-center gap-4 rounded-2xl bg-white px-1 transition-colors duration-300">
@@ -91,9 +90,9 @@ export default function WhoWeAre() {
             </div>
           </Reveal>
 
-          <Reveal as="blockquote" delay={400} className="rounded-2xl border-l-4 border-brand-gold bg-slate-50/70 px-8 py-8 lg:col-span-12">
-            <p className="mb-3 text-[11px] font-semibold uppercase tracking-[0.22em] text-brand-gold">OUR BELIEF</p>
-            <p className="font-bricolage text-xl font-semibold leading-relaxed text-brand-navy md:text-2xl">Good financial guidance starts with understanding the person behind the need.</p>
+          <Reveal as="blockquote" delay={400} className="rounded-2xl border-l-4 border-brand-gold bg-[#f8f4e9] px-8 py-8 lg:col-span-12">
+            <p className="mb-3 text-sm font-semibold uppercase tracking-[0.22em] text-brand-gold">OUR BELIEF</p>
+            <p className="font-serif text-[clamp(1.6rem,3vw,2.5rem)] italic leading-tight text-brand-navy">Good financial guidance starts with understanding the person behind the need.</p>
           </Reveal>
         </div>
       </div>

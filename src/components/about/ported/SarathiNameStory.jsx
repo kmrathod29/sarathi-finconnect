@@ -72,6 +72,7 @@ export default function SarathiNameStory() {
     const clamp = (value) => Math.max(0, Math.min(1, value));
     let frameRequested = false;
     let frameId;
+    let previousScrollY = window.scrollY;
 
     const placeMarker = (marker, distance) => {
       const point = route.getPointAtLength(distance);
@@ -80,9 +81,11 @@ export default function SarathiNameStory() {
 
     const updateProgress = () => {
       frameRequested = false;
+      const scrollingDown = window.scrollY >= previousScrollY;
+      previousScrollY = window.scrollY;
       const viewportHeight = window.innerHeight;
       const routeTop = section.querySelector("[data-sfc-route]").getBoundingClientRect().top;
-      const progress = reduceMotion
+      const progress = reduceMotion || !scrollingDown
         ? 1
         : clamp((viewportHeight * 0.9 - routeTop) / (viewportHeight * 0.55));
 
